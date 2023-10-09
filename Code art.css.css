@@ -1,0 +1,40 @@
+body{
+    background-color: yellow;
+}
+.first{
+    background-color: blueviolet;
+}
+
+a{
+    position: relative;
+    top: 0px;
+    left: 800px;
+    word-spacing: 20px;
+    color:white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.hass{
+    position: relative;
+    top: 5px;
+    left: 160px;
+    word-spacing:10px ;
+    text-decoration: none;
+}
+img{
+border-radius: 20px;
+}
+header{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+header .art h1{
+    display: flex;
+    position:absolute;
+    top:20px;
+    left: 140px;    
+}
+h1 ,h2{
+    text-align: center;
+}

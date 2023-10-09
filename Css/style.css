@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+form{
+    color: blue;
+    box-shadow: 2px;
+}
+#text{
+    color:orange;
+    background-color: brown;
+}
+::placeholder{
+    color: blue;
+    background-color: olive;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+}

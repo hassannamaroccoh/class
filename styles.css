@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:olivedrab;
+}
+header{
+    display:flex;
+    height:100px;
+    width:100%;
+    justify-content: space-between;
+    background-image: url("images/white-abstract-background-design_23-2148825582.webp");
+}
+
+header img{
+    border:3px solid red;
+    margin: 5px;
+}
+header .logo h1{
+    font-family: 'Almendra SC';
+    display: inline-block;
+    position:absolute;
+    justify-content: space-between;
+    top: 3px;
+    left:100px;
+    font-family: Arial;
+    color:blue;
+    
+}
+header .anc a{
+    margin:40px;
+    margin-left: 10px;
+    
+    display:inline-block;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    color:orange;
+}
+
+header .anc a:hover{
+   transition: all 3s ease-in-out;
+   border: 2px solid gold;
+   height: 20px;
+   background-color: white;
+ 
+}
+.bd img{
+    height: 400px;
+    width:100%;
+    background-size: contain;
+    filter: saturate(5);
+}
+.bd2 .inl h3{
+    text-align: center;
+    font-family: verdana;
+}
+.bd2 .inl h1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+    border-bottom: 2px solid black;
+    width: 200px;
+}
+.bd2 .inl a{
+    text-align: center;
+    font-family: verdana;
+    text-decoration: none;
+    color:black;
+    font-weight:bolder;
+    word-spacing: 30px;
+}
+
+.bd3 .inli h3{
+    text-align: center;
+    font-family: verdana;
+    color:white;
+}
+.bd3 .inli h1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+    border-bottom: 2px solid white;
+    width: 200px;
+    color:white;
+
+}
+.below{
+    background-color:purple;
+    height: 400px;
+    width: 100%;
+    z-index:-1
+}
+.below img{
+    background-size: contain;
+    height: 300px;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.below button{
+    margin-left:700px;
+    border-radius:10px solid white;
+    padding: 4px;
+}
+.bd4{
+    height: 400px;
+    width: 100%;
+    background-color:white;
+}
+
+.bd4 .inli h3{
+    margin-top:8px;
+    text-align: center;
+    font-family: verdana;
+    color:black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bd4 .inli h1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+    border-bottom: 2px solid black;
+    width: 200px;
+    color:black;
+}
+.bd4 .pass img{
+    width: 200px;
+    height:300px;
+    border:1px solid black;
+    filter: saturate(2);
+   margin-left: 10px;
+   border-radius: 20%;
+}
+.bd4 .txt p{
+   
+    position:relative;
+    bottom:260px;
+    font-size: 1.5em;
+    margin-left:300px;
+}
+.bd4 .txt h2{
+   
+    position:relative;
+    bottom:260px;
+    font-size: 1.5em;
+    margin-left:300px;
+}
+
+.bd4 .txt button{
+   color:white;
+   font-weight:bolder;
+   width: 180px;
+   text-align: center;
+    position:relative;
+    bottom:260px;
+    left: 250px;
+    font-size: 1.5em;
+    margin-left:30px;
+    background-color: brown;
+}
+
+.last{
+    background-color: black;
+    height:430px;
+    width:100%;
+}
+
+.last .inli h3{
+    text-align: center;
+    font-family: verdana;
+    color:white;
+}
+.last .inli h1{
+    margin-top:8px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+    border-bottom: 2px solid darkgreen;
+    width: 200px;
+    color:white;
+}
+fieldset{
+    color:white;
+    height: 50px;
+    width: 50%;
+    margin-left: 300px;
+}
+.last button{
+    margin-left: 900px;
+    padding: 3px;
+
+}
+footer{
+    height: 100px;
+    width: 100%
+}
+footer img{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    margin-left: 630px;
+    border:1px solid black;
+
+}
+footer h3{
+    margin-left: 550px;
+    font-size: 16px;
+    
+}
+footer h1{
+    margin-left:520px;
+    font-stretch: condensed;
+    font-size: 30px;
+    letter-spacing: 15px;
+    word-spacing: 10px;
+    font-family: monospace;
+}
